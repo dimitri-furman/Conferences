@@ -7,11 +7,12 @@ This script sets up a demo to show differences in the duration of loading transi
 
 Steps:
 1. Create a storage account.
-2. Upload the four data file chunks and the BCP format file to a container named "bcp" in the storage account.
-3. Install RML Utilities (https://support.microsoft.com/en-us/help/944837/description-of-the-replay-markup-language-rml-utilities-for-sql-server).
-4. Execute the script below as noted.
-5. Open RML Utilities command prompt, execute Load-all.cmd. 
-6. Observe differences in load times and differences in resource consumption, specifically log rate and CPU utilization for each database.
+2. Download demo data from https://dfsta001.blob.core.windows.net/public-demo-data/dps-2020-data-load-demo/data-files.zip. Unzip the files.
+3. Upload the four data file chunks and the BCP format file to a container named "bcp" in the storage account.
+4. Install RML Utilities (https://support.microsoft.com/en-us/help/944837/description-of-the-replay-markup-language-rml-utilities-for-sql-server).
+5. Execute the script below as noted.
+6. Open RML Utilities command prompt, execute Load-all.cmd. 
+7. Observe differences in load times and differences in resource consumption, specifically log rate and CPU utilization for each database.
 */
 
 -- Create four test databases on the same logical server
